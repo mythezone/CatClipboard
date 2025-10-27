@@ -15,16 +15,16 @@
 
 <p align="center">主页面</p>
 
-![alt text](img/image.png)
+<img src="img/image.png" alt="alt text" style="zoom:50%;" />
 
 <p align="center">查询</p>
 
-
-![alt text](img/image4.png)
+<img src="img/image4.png" alt="alt text" style="zoom:50%;" />
 
 <p align="center">收藏</p>
 
-![alt text](img/image3.png)
+<img src="img/image3.png" alt="alt text" style="zoom:50%;" />
+
 ## 技术栈
 
 - **后端**：Rust + Tauri
