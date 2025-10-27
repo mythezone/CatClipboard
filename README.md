@@ -2,6 +2,13 @@
 
 一个轻量级的剪切板历史管理工具，采用简洁风格 UI 设计。
 
+<div align="center">
+[![Release](https://img.shields.io/github/v/tag/LeastBit/CatClipboard?label=release)](https://github.com/LeastBit/CatClipboard/releases)
+[![Rust](https://img.shields.io/badge/Rust-orange.svg)](https://www.rust-lang.org/)
+[![Tauri](https://img.shields.io/badge/Tauri-blueviolet.svg)](https://tauri.app/)
+[![React](https://img.shields.io/badge/React-blue.svg)](https://reactjs.org/)
+</div>
+
 ## 功能特性
 
 -  **自动监听剪切板**：实时监控系统剪切板变化
@@ -18,6 +25,10 @@
 | 主页面 | 查询 | 收藏 |
 | :----: | :--: | :--: |
 | ![主页面截图](img/image.png) | ![查询截图](img/image3.png) | ![收藏截图](img/image4.png) |
+
+## 安装
+前往发行版页面下载对应平台的安装包：
+github Releases:https://github.com/LeastBit/CatClipboard/releases/tag/v0.1.0
 
 ## 技术栈
 
