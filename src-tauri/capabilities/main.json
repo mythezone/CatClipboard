@@ -1,0 +1,20 @@
+{
+  "$schema": "../gen/schemas/capabilities.json",
+  "identifier": "main",
+  "description": "Main capability with required permissions for Cat History",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:default",
+    "core:event:allow-listen",
+    "core:window:default",
+    "core:window:allow-show",
+    "core:window:allow-hide",
+    "core:window:allow-set-focus",
+    "core:window:allow-set-skip-taskbar",
+    "global-shortcut:default",
+    "global-shortcut:allow-register",
+    "global-shortcut:allow-unregister",
+    "global-shortcut:allow-unregister-all",
+    "global-shortcut:allow-is-registered"
+  ]
+}

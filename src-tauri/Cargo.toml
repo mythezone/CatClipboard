@@ -1,0 +1,40 @@
+[package]
+name = "cut-history-app"
+version = "0.1.0"
+description = "A lightweight clipboard history manager with Apple-style UI"
+authors = ["YouGo"]
+license = ""
+repository = ""
+edition = "2021"
+
+[lib]
+name = "cut_history_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = ["tray-icon"] }
+tauri-plugin-shell = "2.0.0"
+tauri-plugin-clipboard-manager = "2.0.0"
+tauri-plugin-autostart = "2.0.0"
+tauri-plugin-global-shortcut = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.31", features = ["bundled", "modern_sqlite"] }
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+base64 = "0.22"
+image = "0.25"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59.0", features = [
+    "Win32_Foundation",
+    "Win32_System_DataExchange",
+    "Win32_System_Memory",
+    "Win32_System_Ole",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Shell",
+] }
