@@ -3,10 +3,19 @@
 一个轻量级的剪切板历史管理工具，采用简洁风格 UI 设计。
 
 <div align="center">
-[![Release](https://img.shields.io/github/v/tag/LeastBit/CatClipboard?label=release)](https://github.com/LeastBit/CatClipboard/releases)
+
+<div align="center">
+
 [![Rust](https://img.shields.io/badge/Rust-orange.svg)](https://www.rust-lang.org/)
-[![Tauri](https://img.shields.io/badge/Tauri-blueviolet.svg)](https://tauri.app/)
+[![Tauri](https://img.shields.io/badge/Tauri-blueviolet.svg)](https://tauri.app)
 [![React](https://img.shields.io/badge/React-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg)](https://www.typescriptlang.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-lightgrey.svg)](https://www.sqlite.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-WindowsS-lightgrey.svg)]()
+
+</div>
+
 </div>
 
 ## 功能特性
