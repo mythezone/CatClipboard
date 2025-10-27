@@ -11,6 +11,20 @@
 -  **标签管理**：为记录添加自定义标签
 -  **快速操作**：一键复制回剪切板
 
+## 功能展示
+
+<p align="center">主页面</p>
+
+![alt text](img/image.png)
+
+<p align="center">查询</p>
+
+
+![alt text](img/image4.png)
+
+<p align="center">收藏</p>
+
+![alt text](img/image3.png)
 ## 技术栈
 
 - **后端**：Rust + Tauri
