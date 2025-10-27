@@ -14,21 +14,9 @@
 ## 功能展示
 
 <p align="center">功能展示</p>
-
-<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;max-width:1000px;margin:0 auto;">
-  <div style="width:32%;text-align:center;">
-    <div style="font-weight:600;margin-bottom:6px;">主页面</div>
-    <img src="img/image.png" alt="主页面" style="width:100%;object-fit:contain;" />
-  </div>
-  <div style="width:32%;text-align:center;">
-    <div style="font-weight:600;margin-bottom:6px;">查询</div>
-    <img src="img/image4.png" alt="查询" style="width:100%;object-fit:contain;" />
-  </div>
-  <div style="width:32%;text-align:center;">
-    <div style="font-weight:600;margin-bottom:6px;">收藏</div>
-    <img src="img/image3.png" alt="收藏" style="width:100%;object-fit:contain;" />
-  </div>
-</div>
+|           主页面           |            查询             |            收藏             |
+| :------------------------: | :-------------------------: | :-------------------------: |
+| ![alt text](img/image.png) | ![alt text](img/image3.png) | ![alt text](img/image4.png) |
 
 ## 技术栈
 
