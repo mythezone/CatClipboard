@@ -16,7 +16,10 @@ use std::ffi::c_void;
 use windows_sys::Win32::{
     Foundation::{HANDLE, HWND},
     System::{
-        DataExchange::{CloseClipboard, EmptyClipboard, GetClipboardData, GetClipboardSequenceNumber, IsClipboardFormatAvailable, OpenClipboard, SetClipboardData},
+        DataExchange::{
+            CloseClipboard, EmptyClipboard, GetClipboardData, GetClipboardSequenceNumber,
+            IsClipboardFormatAvailable, OpenClipboard, SetClipboardData,
+        },
         Memory::{GlobalAlloc, GlobalLock, GlobalUnlock, GMEM_MOVEABLE},
     },
     UI::Shell::{DragQueryFileW, HDROP},
@@ -83,7 +86,9 @@ impl ClipboardMonitor {
 
                 match Self::capture_clipboard_snapshot() {
                     Ok(Some(snapshot)) => {
-                        let mut last = signature_guard.lock().expect("poisoned clipboard signature");
+                        let mut last = signature_guard
+                            .lock()
+                            .expect("poisoned clipboard signature");
                         if *last == snapshot.signature() {
                             continue;
                         }
@@ -198,7 +203,7 @@ impl ClipboardMonitor {
             }
         }
 
-    GlobalUnlock(handle);
+        GlobalUnlock(handle);
 
         Ok(Some(files))
     }
